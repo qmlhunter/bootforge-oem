@@ -18,5 +18,5 @@ fastboot devices
 fastboot oem lock
 
 ECHO DONE
-
+if %errorlevel%==131 ECHO Failed! Remember to double check Fastboot drivers and that your phone is prepped properly!
 SET /P ANSWER=ALL DONE! PRESS ENTER TO EXIT
