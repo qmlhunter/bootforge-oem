@@ -19,4 +19,5 @@ fastboot flashing unlock
 fastboot format userdata
 fastboot reboot
 ECHO DONE
+if %errorlevel%==0 ECHO Failed! Remember to double check Fastboot drivers and that your phone is prepped properly!
 SET /P ANSWER=ALL DONE PRESS ENTER TO EXIT
